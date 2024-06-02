@@ -49,3 +49,7 @@ Solution: 0/10 9-18 * * 1,4
 
 Problem 16: Write a CRON expression that runs a job every hour during the first half of the month.
 Solution: 0 * 1-15 * *
+
+Problem 17: Write a CRON expression that runs a job at 11:30 PM every Friday the 13th.
+Solution: 30 23 13 * 5 
+
