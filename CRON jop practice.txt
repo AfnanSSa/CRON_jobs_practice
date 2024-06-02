@@ -24,3 +24,7 @@ Solution: 0 9-17 * * 1-5
 
 Problem 9: Write a CRON expression that runs a job every day at 3:00 AM.
 Solution: 0 3 * * *
+
+
+Problem 10: Write a CRON expression that runs a job every hour during the month of January.
+Solution: 0 * * 1 *
