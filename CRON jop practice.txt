@@ -3,3 +3,7 @@ Solution: */5 * * * *
 
 Problem 2: Write a CRON expression that runs a job every hour.
 Solution: 0 * * * *
+
+Problem 3: Write a CRON expression that runs a job every day at 2:30 PM.
+Solution: 30 14 * * *
+
