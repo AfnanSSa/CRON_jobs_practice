@@ -12,3 +12,6 @@ Solution: 0 8 * * 1
 
 Problem 5: Write a CRON expression that runs a job every month on the first day of the month at 3:00 AM.
 Solution: 0 3 1 * *
+
+Problem 6: Write a CRON expression that runs a job every Sunday at 7:30 PM and 10:30 PM.
+Solution: 30 19,22 * * 0 
