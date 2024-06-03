@@ -106,3 +106,6 @@ Solution: */5 * 1 * *
 
 Problem 35: Write a CRON expression that runs a job every 15 minutes from 2:00 PM to 10:00 PM on weekends.
 Solution: 0/15 14-22 * * 6,0 
+
+Problem 36: Write a CRON expression that runs a job every 10 minutes on weekdays between 8:00 AM and 3:00 PM.
+Solution: 0/10 8-15 * 1-5 
