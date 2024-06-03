@@ -82,3 +82,6 @@ Solution: 0/10 9-17 * * 1-5
 
 Problem 27: Write a CRON expression that runs a job at 12:00 PM on the 3rd Wednesday of every month.
 Solution: 0 12 * * 3#3
+
+Problem 28: Write a CRON expression that runs a job at 10:00 PM every Sunday in the months of July, August, and September.
+Solution: 0 22 * 7-9 0
