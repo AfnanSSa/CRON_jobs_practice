@@ -142,3 +142,6 @@ Solution: 30 17 1 * *
 
 Problem 47: Write a CRON expression that runs a job at 3:00 AM on weekdays in the month of November.
 Solution: 0 3 * 11 1-5
+
+Problem 48: Write a CRON expression that runs a job at 8:00 AM every day, except for the last day of the month.
+Solution: 0 8 1-L-1 * *
