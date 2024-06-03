@@ -118,3 +118,6 @@ Solution: */30 * 15-L * *
 
 Problem 39: Write a CRON expression that runs a job every hour on the hour from 9:00 AM to 5:00 PM on weekdays.
 Solution: 0 9-17 * * 1-5
+
+Problem 40: Write a CRON expression that runs a job at 12:00 PM on the first Monday of every month.
+Solution: 0 12 * * 1#1
