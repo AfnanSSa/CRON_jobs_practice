@@ -114,7 +114,7 @@ Problem 37: Write a CRON expression that runs a job at 11:00 PM every day of the
 Solution: 0 23 * * * 
 
 Problem 38: Write a CRON expression that runs a job every 30 minutes on the 15th and last day of every month.
-Solution: */30 * 15-L * * 
+Solution: */30 * 15,L * * 
 
 Problem 39: Write a CRON expression that runs a job every hour on the hour from 9:00 AM to 5:00 PM on weekdays.
 Solution: 0 9-17 * * 1-5
