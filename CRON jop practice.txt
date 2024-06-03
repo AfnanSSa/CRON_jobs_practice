@@ -121,3 +121,6 @@ Solution: 0 9-17 * * 1-5
 
 Problem 40: Write a CRON expression that runs a job at 12:00 PM on the first Monday of every month.
 Solution: 0 12 * * 1#1
+
+Problem 41: Write a CRON expression that runs a job every 5 minutes on the first 10 days of January.
+Solution: */5 * 1-10 1 * 
